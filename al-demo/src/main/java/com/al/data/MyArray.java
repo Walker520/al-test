@@ -3,7 +3,9 @@ package com.al.data;
 import java.util.Random;
 
 /**
- * 重写数组  Ext
+ * 重写数组  
+ * 1.含有属性： 定义一个数组、数组实际长度、数组最大长度。
+ * 2.含有方法   1构造函数   无参：设置默认数组大小，只需定义一个最大的数组长度
  * @author AiLi
  *
  */
@@ -105,6 +107,7 @@ public class MyArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			MyArray arr = new MyArray(5);
+			//1.测试添加
 			arr.add(5);
 			arr.add(1);
 			arr.add(4);
