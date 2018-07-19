@@ -5,5 +5,5 @@
     <artifactId>al-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>al-demo</artifactId>
+  <artifactId>al-cloud</artifactId>
 </project>
